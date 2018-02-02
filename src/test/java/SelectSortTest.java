@@ -3,17 +3,17 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * 冒泡排序测试
+ * 选择排序测试
  *
  * @author ltc
- * @create 2018-02-02 11:07
+ * @create 2018-02-02 12:19
  **/
-public class BubbleSortTest {
+public class SelectSortTest {
 
     @Test
     public void test(){
         int[] array = {3,44,38,5,47,15,36,26,27,2,46,4,19,50,48};
-        BubbleSort.sort(array);
+        SelectSort.sort(array);
         System.out.println(Arrays.toString(array));
     }
 }
