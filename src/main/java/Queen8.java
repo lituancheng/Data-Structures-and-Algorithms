@@ -1,3 +1,9 @@
+/**
+ * 八皇后问题
+ *
+ * @author ltc
+ * @create 2018-02-06 13:04
+ **/
 public class Queen8 {
 
     static int count;   //解法数量
@@ -42,8 +48,4 @@ public class Queen8 {
         }
     }
 
-    public static void main(String[] args) {
-        new Queen8().check(0);
-        System.out.println(count);
-    }
 }
